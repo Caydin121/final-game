@@ -199,7 +199,7 @@ var Game = {
                 this.player.score = this.ai.score = 0;
                 this.player.speed += 5;
                 this.ai.speed += 3;
-                this.ball.speed += 5;
+                this.ball.speed += 7;
                 this.round += 2;
  
             }
