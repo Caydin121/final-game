@@ -207,7 +207,7 @@ var Game = {
         // Check to see if the ai/AI has won the round.
         else if (this.ai.score === rounds[this.round]) {
             this.over = true;
-            setTimeout(function () { Pong.endGameMenu('You LOST Try Again!'); }, 1000);
+            setTimeout(function () { Pong.endGameMenu('You LOST, Please Try Again!'); }, 1000);
         }
     },
  
