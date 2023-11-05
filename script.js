@@ -200,7 +200,7 @@ var Game = {
                 this.player.speed += 5;
                 this.ai.speed += 3;
                 this.ball.speed += 7;
-                this.round += 2;
+                this.round += 3;
  
             }
         }
