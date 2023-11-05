@@ -197,7 +197,7 @@ var Game = {
                 // If there is another round, reset all the values and increment the round number.
                 this.color = 'Purple';
                 this.player.score = this.ai.score = 0;
-                this.player.speed += 3;
+                this.player.speed += 5;
                 this.ai.speed += 3;
                 this.ball.speed += 5;
                 this.round += 2;
