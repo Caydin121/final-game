@@ -192,7 +192,7 @@ var Game = {
             // there are not.
             if (!rounds[this.round + 1]) {
                 this.over = true;
-                setTimeout(function () { Pong.endGameMenu('Congratulations You Are a WINNER!'); }, 1000);
+                setTimeout(function () { Pong.endGameMenu('Congratulations You Have Beaten The Game And Become a ... WINNER!'); }, 1000);
             } else {
                 // If there is another round, reset all the values and increment the round number.
                 this.color = 'Purple';
